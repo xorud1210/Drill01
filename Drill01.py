@@ -16,6 +16,7 @@ def move_down():
     turtle.setheading(270)
     turtle.forward(50)
     turtle.stamp()
+
     
 
 turtle.shape('turtle')
@@ -24,5 +25,6 @@ turtle.onkey(move_up,'w')
 turtle.onkey(move_left,'a')
 turtle.onkey(move_down,'s')
 turtle.onkey(move_right,'d')
+turtle.onkey(turtle.reset,'Escape')
 turtle.listen()
              
